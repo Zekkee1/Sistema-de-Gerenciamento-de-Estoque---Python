@@ -1,0 +1,10 @@
+venv
+build
+dist
+imgs
+venv
+xml_files
+icon.png
+Gerenciador de Estoque.exe
+System.db
+__pycache__
