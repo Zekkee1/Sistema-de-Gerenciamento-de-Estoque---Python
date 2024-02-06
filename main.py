@@ -1,18 +1,17 @@
-from PySide6.QtWidgets import(QApplication,QMainWindow,QMessageBox,QWidget, QFileDialog, QTreeWidgetItem)
+from PySide6.QtWidgets import(QApplication,QMainWindow,QMessageBox,QWidget, QFileDialog, QTreeWidgetItem, )
 from login import Ui_Login
 from PySide6.QtCore import Qt
 from tela_principal import Ui_MainWindow
-from PySide6.QtGui import QIcon
 import sys
 from database import DataBase
 from xml_files import Read_xml
 import sqlite3
 import pandas as pd
 from PySide6.QtSql import QSqlDatabase, QSqlTableModel
+
 import re
 from datetime import date
 import matplotlib.pyplot as plt
-
 
 class LoginWindow(QWidget,Ui_Login):
     def __init__(self):        
@@ -21,6 +20,8 @@ class LoginWindow(QWidget,Ui_Login):
         self.ui.setupUi(self)
         self.setWindowTitle("Login")
         self.ui.botton_login.clicked.connect(self.checar_login)
+        
+
 
     def checar_login(self):
         self.users = DataBase()
@@ -137,7 +138,7 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
         msg.setIcon(QMessageBox.Warning)
 
         if not self.ui.lineEdit.text():
-            msg.setText("Selecione um diretório primeiro.")
+            msg.setText("Selecione primeiro um diretório.")
             msg.exec()
             return
         
@@ -253,6 +254,9 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
       
     def gerar_saida(self):
         self.checked_items_out = []
+        msgBox = QMessageBox()
+        msgBox.setIcon(QMessageBox.Information)
+        msgBox.setWindowTitle("Gerar Saída")
 
         def recurse(parent_item):
             for i in range(parent_item.childCount()):
@@ -263,14 +267,20 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
                 if child.checkState(0) == Qt.Checked:
                     self.checked_items_out.append(child.text(0))
     
-        recurse(self.ui.tw_estoque.invisibleRootItem())
+        recurse(self.ui.tw_estoque.invisibleRootItem()) 
 
-        
-        self.question('saída')
+        if self.checked_items_out ==[]:
+            msgBox.setText("nenhuma nota selecionada")
+            msgBox.exec()
+        else:
+            self.question('saída')
 
     def gerar_estorno(self):
         
         self.checked_items = []
+        msgBox = QMessageBox()
+        msgBox.setIcon(QMessageBox.Information)
+        msgBox.setWindowTitle("Gerar Estorno")
 
         def recurse(parent_item):
             for i in range(parent_item.childCount()):
@@ -282,20 +292,26 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
                     self.checked_items.append(child.text(0))
 
         recurse(self.ui.tw_saida.invisibleRootItem())
-        self.question('estorno')
+
+        if self.checked_items ==[]:
+            msgBox.setText("nenhuma nota selecionada")
+            
+            msgBox.exec()
+        else:
+            self.question('estorno')
         
     def question(self, table):
         msgBox = QMessageBox()
 
         if table == 'estorno':
             msgBox.setText("Deseja estornar as notas selecionadas?")
-            msgBox.setInformativeText("As selecionadas voltarão para o estoque \n clique em 'Yes' para confirmar.")
+            msgBox.setInformativeText("As notas selecionadas voltarão para o estoque \n clique em 'Yes' para confirmar.")
             msgBox.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
             msgBox.setDetailedText(f"Notas: {self.checked_items}")
-
+            
         else:
             msgBox.setText("Deseja Gerar saída das nota selecionadas?")
-            msgBox.setInformativeText("As notas abaixo será baixada no estoque \n clique em 'Yes' para confirmar.")
+            msgBox.setInformativeText("As notas abaixo serão baixadas no estoque \n clique em 'Yes' para confirmar.")
             msgBox.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
             msgBox.setDetailedText(f"Notas: {self.checked_items_out}")
 
@@ -367,7 +383,7 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
         if not selected_rows_geral:
             
             msg.setIcon(QMessageBox.Information)
-            msg.setWindowTitle("Exclusão de Itens")
+            msg.setWindowTitle("Exclusão de Notas")
             msg.setText("Nenhuma Nota foi selecionada")
             msg.exec()
             return  
@@ -396,14 +412,14 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
 
                 
                 msg.setIcon(QMessageBox.Information)
-                msg.setWindowTitle("Exclusão de Itens")
-                msg.setText("Itens excluídos com sucesso!")
+                msg.setWindowTitle("Exclusão de Notas")
+                msg.setText("Notas excluídas com sucesso!")
                 msg.exec_()
 
                 self.resetar_tabelas()
 
             except sqlite3.Error as e:
-                print(f"Erro ao excluir itens do banco de dados: {e}")
+                print(f"Erro ao excluir as Notas do banco de dados: {e}")
 
             finally:
                 db.desconectar()
@@ -419,7 +435,6 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
         msg.setWindowTitle("Atualização de Usuário")
 
         if not selected_rows:
-            msg.setIcon(QMessageBox.Warning)
             msg.setText("Nenhum usuário selecionado para excluir.")
             msg.setText("Selecione um Usuário na tabela")
             msg.exec()
@@ -485,17 +500,18 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
             
             msg.exec()
             return      
+       
         self.id_user = str(self.model.data(selected_rows[0].siblingAtColumn(0)))
 
         nome = self.ui.txt_nome_atualizar.text()
         usuario = self.ui.txt_usuario_atualizar.text()
         senha = self.ui.txt_senha_atualizar.text()
-        perfil = self.ui.box_perfil_atualizar.currentText()
+        
 
         db = DataBase()
         db.conectar()
 
-        db.update_usuario(nome, usuario, senha, perfil, self.id_user)
+        db.update_usuario(nome, usuario, senha, self.id_user)
         msg.setText("Dados do usuário alterados com sucesso!")
         msg.exec()
 
@@ -504,7 +520,6 @@ class TelaPrincipal(QMainWindow,Ui_MainWindow):
         self.ui.txt_senha_atualizar.setText("")
                             
         db.desconectar()
-
 
         self.resetar_tabelas()
 

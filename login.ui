@@ -27,7 +27,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>imgs/icone_principal.png</normaloff>imgs/icone_principal.png</iconset>
+    <normaloff>icone.ico</normaloff>icone.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:qlineargradient(spread:pad, x1:0.486, y1:0, x2:0.497, y2:1, stop:0 rgba(42, 71, 94, 255), stop:1 rgba(28, 41, 56, 255))</string>

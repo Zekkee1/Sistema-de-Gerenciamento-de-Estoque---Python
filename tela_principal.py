@@ -32,7 +32,7 @@ class Ui_MainWindow(object):
         font.setFamilies([u"Calibri"])
         MainWindow.setFont(font)
         icon = QIcon()
-        icon.addFile(u"imgs/icone_principal.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"imgs/icone.ico", QSize(), QIcon.Normal, QIcon.Off)
         MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet(u"background-color:qlineargradient(spread:pad, x1:0, y1:0.403, x2:1, y2:0.631, stop:0 rgba(25, 56, 73, 255), stop:1 rgba(28, 44, 68, 255))")
         MainWindow.setIconSize(QSize(24, 24))
@@ -849,50 +849,6 @@ class Ui_MainWindow(object):
 
         self.verticalLayout_16.addLayout(self.horizontalLayout_47)
 
-        self.horizontalLayout_49 = QHBoxLayout()
-        self.horizontalLayout_49.setObjectName(u"horizontalLayout_49")
-        self.label_117 = QLabel(self.frame_10)
-        self.label_117.setObjectName(u"label_117")
-        self.label_117.setMaximumSize(QSize(108, 16777215))
-        self.label_117.setStyleSheet(u"background-color:transparent")
-
-        self.horizontalLayout_49.addWidget(self.label_117)
-
-        self.label_118 = QLabel(self.frame_10)
-        self.label_118.setObjectName(u"label_118")
-        self.label_118.setMaximumSize(QSize(45, 16777215))
-        self.label_118.setFont(font5)
-        self.label_118.setStyleSheet(u"background-color:transparent")
-
-        self.horizontalLayout_49.addWidget(self.label_118)
-
-        self.box_perfil_atualizar = QComboBox(self.frame_10)
-        self.box_perfil_atualizar.addItem("")
-        self.box_perfil_atualizar.addItem("")
-        self.box_perfil_atualizar.setObjectName(u"box_perfil_atualizar")
-        self.box_perfil_atualizar.setMinimumSize(QSize(0, 25))
-        self.box_perfil_atualizar.setMaximumSize(QSize(300, 16777215))
-        font13 = QFont()
-        font13.setFamilies([u"Calibri"])
-        font13.setPointSize(10)
-        self.box_perfil_atualizar.setFont(font13)
-        self.box_perfil_atualizar.setStyleSheet(u"background-color:rgb(255, 255, 255);\n"
-"border-radius:10px;\n"
-"")
-        self.box_perfil_atualizar.setEditable(False)
-        self.box_perfil_atualizar.setInsertPolicy(QComboBox.InsertAtBottom)
-
-        self.horizontalLayout_49.addWidget(self.box_perfil_atualizar)
-
-        self.label_119 = QLabel(self.frame_10)
-        self.label_119.setObjectName(u"label_119")
-        self.label_119.setStyleSheet(u"background-color:transparent")
-
-        self.horizontalLayout_49.addWidget(self.label_119)
-
-
-        self.verticalLayout_16.addLayout(self.horizontalLayout_49)
-
         self.horizontalLayout_18 = QHBoxLayout()
         self.horizontalLayout_18.setObjectName(u"horizontalLayout_18")
         self.label_120 = QLabel(self.frame_10)
@@ -1254,6 +1210,9 @@ class Ui_MainWindow(object):
         self.box_perfil.setObjectName(u"box_perfil")
         self.box_perfil.setMinimumSize(QSize(0, 25))
         self.box_perfil.setMaximumSize(QSize(300, 16777215))
+        font13 = QFont()
+        font13.setFamilies([u"Calibri"])
+        font13.setPointSize(10)
         self.box_perfil.setFont(font13)
         self.box_perfil.setStyleSheet(u"background-color:rgb(255, 255, 255);\n"
 "border-radius:10px;\n"
@@ -1494,7 +1453,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.Pages.setCurrentIndex(1)
+        self.Pages.setCurrentIndex(3)
         self.tabWidget.setCurrentIndex(0)
 
 
@@ -1570,12 +1529,6 @@ class Ui_MainWindow(object):
         self.label_113.setText("")
         self.txt_senha_atualizar.setPlaceholderText(QCoreApplication.translate("MainWindow", u"SENHA", None))
         self.label_114.setText("")
-        self.label_117.setText("")
-        self.label_118.setText(QCoreApplication.translate("MainWindow", u"<html><head/><body><p align=\"center\"><span style=\" color:#ffffff;\">Perf\u00edl:</span></p></body></html>", None))
-        self.box_perfil_atualizar.setItemText(0, QCoreApplication.translate("MainWindow", u"Usu\u00e1rio", None))
-        self.box_perfil_atualizar.setItemText(1, QCoreApplication.translate("MainWindow", u"Administrador", None))
-
-        self.label_119.setText("")
         self.label_120.setText("")
         self.btn_confirmar.setText(QCoreApplication.translate("MainWindow", u"CONFIRMAR", None))
         self.label_123.setText("")

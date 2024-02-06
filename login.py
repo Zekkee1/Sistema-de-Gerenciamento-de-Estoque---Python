@@ -27,7 +27,7 @@ class Ui_Login(object):
         Login.setMinimumSize(QSize(518, 0))
         Login.setMaximumSize(QSize(585, 571))
         icon = QIcon()
-        icon.addFile(u"imgs/kisspng-inventory-management-stock-taking-clip-art-service-icon-5aead231daa902.8297761415253386738956.png", QSize(), QIcon.Normal, QIcon.Off)
+        icon.addFile(u"icone.ico", QSize(), QIcon.Normal, QIcon.Off)
         Login.setWindowIcon(icon)
         Login.setStyleSheet(u"background-color:qlineargradient(spread:pad, x1:0.486, y1:0, x2:0.497, y2:1, stop:0 rgba(42, 71, 94, 255), stop:1 rgba(28, 41, 56, 255))")
         self.horizontalLayout = QHBoxLayout(Login)

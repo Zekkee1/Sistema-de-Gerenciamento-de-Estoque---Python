@@ -32,7 +32,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>imgs/icone_principal.png</normaloff>imgs/icone_principal.png</iconset>
+    <normaloff>imgs/icone.ico</normaloff>imgs/icone.ico</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:qlineargradient(spread:pad, x1:0, y1:0.403, x2:1, y2:0.631, stop:0 rgba(25, 56, 73, 255), stop:1 rgba(28, 44, 68, 255))</string>
@@ -382,7 +382,7 @@ background-color: rgb(78, 125, 195);
 </string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="page_table">
        <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -1629,101 +1629,6 @@ padding:5px;
              </item>
              <item>
               <widget class="QLabel" name="label_114">
-               <property name="styleSheet">
-                <string notr="true">background-color:transparent</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </item>
-           <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_49">
-             <item>
-              <widget class="QLabel" name="label_117">
-               <property name="maximumSize">
-                <size>
-                 <width>108</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color:transparent</string>
-               </property>
-               <property name="text">
-                <string/>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_118">
-               <property name="maximumSize">
-                <size>
-                 <width>45</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Calibri</family>
-                 <pointsize>13</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color:transparent</string>
-               </property>
-               <property name="text">
-                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Perfíl:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QComboBox" name="box_perfil_atualizar">
-               <property name="minimumSize">
-                <size>
-                 <width>0</width>
-                 <height>25</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>300</width>
-                 <height>16777215</height>
-                </size>
-               </property>
-               <property name="font">
-                <font>
-                 <family>Calibri</family>
-                 <pointsize>10</pointsize>
-                </font>
-               </property>
-               <property name="styleSheet">
-                <string notr="true">background-color:rgb(255, 255, 255);
-border-radius:10px;
-</string>
-               </property>
-               <property name="editable">
-                <bool>false</bool>
-               </property>
-               <property name="insertPolicy">
-                <enum>QComboBox::InsertAtBottom</enum>
-               </property>
-               <item>
-                <property name="text">
-                 <string>Usuário</string>
-                </property>
-               </item>
-               <item>
-                <property name="text">
-                 <string>Administrador</string>
-                </property>
-               </item>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_119">
                <property name="styleSheet">
                 <string notr="true">background-color:transparent</string>
                </property>
