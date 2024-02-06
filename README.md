@@ -10,7 +10,7 @@
 Este sistema faz a importação de arquivos XML e faz o controle do estoque de acordo com a entrada e saídas de notas ficais apontadas pelo usuário.
 
 
-## ferramentas
+## Ferramentas
 <ul>
   <li>Python</li>
   <li>QT Designer</li>
