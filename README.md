@@ -15,7 +15,7 @@ Este sistema faz a importação de arquivos XML e faz o controle do estoque de a
   <li>Python</li>
   <li>QT Designer</li>
   <li>PySide6</li>
-  <li>SQLite</li>
+  <li>Pandas</li>
   <li>SQLite - Banco de dados</li>
   <li>PYinstaller</li>
 </ul>
