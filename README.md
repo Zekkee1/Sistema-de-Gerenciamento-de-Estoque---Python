@@ -1,6 +1,3 @@
-
-#https://drive.usercontent.google.com/download?id=16MW2Rew4IE4-WyGmLYfp_Oo0vugIkWAP
-
 <h1 align="center">
 # Sistema-de-Gerenciamento-de-Estoque---Python
 </h1>
