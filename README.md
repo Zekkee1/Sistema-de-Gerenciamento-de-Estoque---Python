@@ -68,7 +68,8 @@ USERNAME: usuario | SENHA: usuario
   ## Página - Usuários
 
   #### Nesta pagina somente usuários com perfil de "Administrador" poderão vizualiza-la.
-  #### Ao selecionar um usuário da tabela o "Administrador" poderá: excluir usuário, cadastrar novo usuário, atualizar dados dos usuários.
+  #### O Administrador tambem poderá cadastrar um novo usuário.
+  #### Ao selecionar um usuário da tabela o "Administrador" poderá: excluir usuário, atualizar dados do usuário.
 <img src="https://private-user-images.githubusercontent.com/99279134/302808190-dee9e1d0-eed3-4c89-ac40-d62f0b749d49.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxOTAtZGVlOWUxZDAtZWVkMy00Yzg5LWFjNDAtZDYyZjBiNzQ5ZDQ5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhY2VkYzc1ZmM2MWFlODYwMjg1MjkzZDBmNjdlNDQyM2Y4YjQ1NjQwMzY4M2U0ZDAzNGMyZDRkNzk2OWZkZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ml8OvJcVma3H6nMJNYGzXLdQ9-lZs24LpkjTMTNC2xI" >
 
 ## Página - Usuários > cadastro de usuarios
