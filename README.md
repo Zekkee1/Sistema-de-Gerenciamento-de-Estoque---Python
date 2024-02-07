@@ -25,7 +25,7 @@ Link do Download direto - https://drive.usercontent.google.com/download?id=1rw-V
 
 #### Nesta pagina o usuário poderá efetuar o login com base nos usuários cadastrados no banco de dados.
 #### Por padrão o sistema ja possui 2 usuários cadastrados, um Administrador e um Usuário.
-### ADMINISTRADOR: 
+### Administrador: 
 USERNAME: admin | SENHA: admin
 ### Usuário: 
 USERNAME: usuario | SENHA: usuario
