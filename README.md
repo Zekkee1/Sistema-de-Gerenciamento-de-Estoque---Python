@@ -51,13 +51,13 @@ USERNAME: usuario | SENHA: usuario
 
   ## Página - Tables > Aba Base
 
-  #### Nesta pagina poderá ser vizualizado os dados principais da nota fiscal e o usuário poderá dar baixa e estornar a nota fiscal do estoque
+  #### Nesta pagina poderão ser vizualizado os dados principais das notas fiscais, o usuário poderá dar baixa e estornar a nota fiscal para o estoque
 <img src="https://private-user-images.githubusercontent.com/99279134/302808194-036c4f6c-ca0d-477c-94b8-a1301ed928d1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxOTQtMDM2YzRmNmMtY2EwZC00NzdjLTk0YjgtYTEzMDFlZDkyOGQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1OTRkYWM1YmMzOTU1NTE4OTE2ZGI4MmY3NjgwNTk3ODE3ZGE4M2RiOWYwZThhMzBjZTIyNWUwYmU3MmJjZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uaFCJ3PTZO5FP0v0utK3dWCpTERgFT3xh71DdzcTWl4" >
 
 
   ## Página - Tables > Aba Geral
   #### Nesta pagina o usuário poderá vizualisar os dados gerais de todas as notas cadastradas no banco de dados. 
-  #### O usuário com o perfil "administrador" poderá selecionar as notas e excluí-las do banco de dados.
+  #### O usuário com o perfil "administrador" poderá selecionar as notas clicando no numero á esquerda da nota e excluí-las do banco de dados.
   
   <img src="https://private-user-images.githubusercontent.com/99279134/303114102-452c9253-019c-4a44-a8c0-e0ee3a449af2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDczMzQ4MTMsIm5iZiI6MTcwNzMzNDUxMywicGF0aCI6Ii85OTI3OTEzNC8zMDMxMTQxMDItNDUyYzkyNTMtMDE5Yy00YTQ0LWE4YzAtZTBlZTNhNDQ5YWYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA3VDE5MzUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlM2ViYzA3ZjMxOGM5MTE2NzRlN2YyZGJjOTIwZjg1MjFhY2IzZjhkNGJkYTliMmZhMDliOGE1MmFiYTdmZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7DlzB5_BHknftW-EuagtPZej8XRXpH2l4A883IaoQP0" >
   
@@ -67,7 +67,7 @@ USERNAME: usuario | SENHA: usuario
 
   ## Página - Usuários
 
-  #### Nesta pagina somente o usuário com o perfil "Administrador" poderá vizualisar.
+  #### Nesta pagina somente usuários com perfil de "Administrador" poderão vizualiza-la.
   #### Ao selecionar um usuário da tabela o "Administrador" poderá: excluir usuário, cadastrar novo usuário, atualizar dados dos usuários.
 <img src="https://private-user-images.githubusercontent.com/99279134/302808190-dee9e1d0-eed3-4c89-ac40-d62f0b749d49.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxOTAtZGVlOWUxZDAtZWVkMy00Yzg5LWFjNDAtZDYyZjBiNzQ5ZDQ5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBhY2VkYzc1ZmM2MWFlODYwMjg1MjkzZDBmNjdlNDQyM2Y4YjQ1NjQwMzY4M2U0ZDAzNGMyZDRkNzk2OWZkZWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ml8OvJcVma3H6nMJNYGzXLdQ9-lZs24LpkjTMTNC2xI" >
 
