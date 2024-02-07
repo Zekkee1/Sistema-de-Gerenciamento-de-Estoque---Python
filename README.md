@@ -45,7 +45,7 @@ USERNAME: usuario | SENHA: usuario
 
   ## Página - Importar
 
-  #### Nesta pagina é possivel selecionar a pasta que contem os arquivos XML e o sistema cadastrará todos no banco de dados de uma só vez
+  #### Nesta pagina é possivel selecionar a pasta que contem todas as notas fiscais e o sistema cadastrará todas no banco de dados de uma só vez
 <img src="https://private-user-images.githubusercontent.com/99279134/302808188-39bbf902-b6d5-4a9d-950e-87dd7a31530f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxODgtMzliYmY5MDItYjZkNS00YTlkLTk1MGUtODdkZDdhMzE1MzBmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVmMGJmMGViOTMzNjg1NDE3ZDE2ZGU0ZTU2ZTAyY2U5NTRmNjczYmFmZjhkMWRjMmNlYjJlYzc5NGY0N2FlZmImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.v-lLoNhYwoMHWscZpgljeGHxwLxklBVTtut70_ZDzuk" >
 
 
