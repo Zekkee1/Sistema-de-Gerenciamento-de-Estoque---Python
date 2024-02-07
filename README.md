@@ -57,7 +57,7 @@ USERNAME: usuario | SENHA: usuario
 
   ## Página - Tables > Aba Geral
   #### Nesta pagina o usuário poderá vizualisar os dados gerais de todas as notas cadastradas no banco de dados. 
-  #### O usuário com o perfil "administrador" poderá selecionar as notas e excluir do banco de dados.
+  #### O usuário com o perfil "administrador" poderá selecionar as notas e excluí-las do banco de dados.
   
   <img src="https://private-user-images.githubusercontent.com/99279134/303114102-452c9253-019c-4a44-a8c0-e0ee3a449af2.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDczMzQ4MTMsIm5iZiI6MTcwNzMzNDUxMywicGF0aCI6Ii85OTI3OTEzNC8zMDMxMTQxMDItNDUyYzkyNTMtMDE5Yy00YTQ0LWE4YzAtZTBlZTNhNDQ5YWYyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA3VDE5MzUxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRlM2ViYzA3ZjMxOGM5MTE2NzRlN2YyZGJjOTIwZjg1MjFhY2IzZjhkNGJkYTliMmZhMDliOGE1MmFiYTdmZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7DlzB5_BHknftW-EuagtPZej8XRXpH2l4A883IaoQP0" >
   
