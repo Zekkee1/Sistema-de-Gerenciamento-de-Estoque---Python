@@ -51,7 +51,7 @@ USERNAME: usuario | SENHA: usuario
 
   ## Página - Tables > Aba Base
 
-  #### Nesta pagina poderão ser vizualizado os dados principais das notas fiscais, o usuário poderá dar baixa e estornar a nota fiscal para o estoque
+  #### Nesta pagina poderão ser vizualizados os dados principais das notas fiscais, o usuário poderá dar baixa e estornar a nota fiscal para o estoque
 <img src="https://private-user-images.githubusercontent.com/99279134/302808194-036c4f6c-ca0d-477c-94b8-a1301ed928d1.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxOTQtMDM2YzRmNmMtY2EwZC00NzdjLTk0YjgtYTEzMDFlZDkyOGQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE1OTRkYWM1YmMzOTU1NTE4OTE2ZGI4MmY3NjgwNTk3ODE3ZGE4M2RiOWYwZThhMzBjZTIyNWUwYmU3MmJjZDAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.uaFCJ3PTZO5FP0v0utK3dWCpTERgFT3xh71DdzcTWl4" >
 
 
