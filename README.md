@@ -19,7 +19,7 @@ Link do Download direto - https://drive.usercontent.google.com/download?id=1rw-V
   <li>SQLite - Banco de dados</li>
 </ul>
 
-<br></br>
+
 # Preview
 ## Página - Login
 
@@ -73,10 +73,12 @@ USERNAME: usuario | SENHA: usuario
 
 ## Página - Usuários > cadastro de usuarios
 
+#### Nesta página o administrador poderá cadastrar um novo usuário no banco de dados.
 <img src="https://private-user-images.githubusercontent.com/99279134/302808195-0c4f7272-0cd5-4e15-b4da-d6fd1e87399d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxOTUtMGM0ZjcyNzItMGNkNS00ZTE1LWI0ZGEtZDZmZDFlODczOTlkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWM1ZDQzNDU4MDdkZDdlY2U0YzQwODkyMzE5MmQxYmQxODEzY2JhZTgyZWRkOWRlYTNjMzQyMzljYzJmNzViNTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.qnkB4xzDu0mCMSSGqOO49OKfX4ctmb0lJUjeJjpOAV4" >
 
 ## Página - Usuários > Atualizar Dados do Usuário
 
+#### Nesta página o administrador poderá atualizar os dados do usuário selecionado.
 <img src="https://private-user-images.githubusercontent.com/99279134/302808197-814ad65a-6e98-4b76-9218-3cb1fd6ce470.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcyNjMzMzUsIm5iZiI6MTcwNzI2MzAzNSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxOTctODE0YWQ2NWEtNmU5OC00Yjc2LTkyMTgtM2NiMWZkNmNlNDcwLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA2VDIzNDM1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTViYzczZTYzZWIyMmIwN2U3OGI3MjNhMmM1MDhkZmY5MGM4MzE4YTkxNzdiOTZhODY1YWVjNDBiOTJlNWNlMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.LjWYg5QSdNz9L_XjbtnyoJ66Kg6WIaeaCaxvdaSOb94" >
 
 ## Página - Sobre
