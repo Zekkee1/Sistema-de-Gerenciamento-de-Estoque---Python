@@ -5,6 +5,8 @@
 
 ## Descrição
 Este sistema faz a importação de arquivos XML e faz o controle do estoque de acordo com a entrada e saídas de notas ficais apontadas pelo usuário.
+foi desenvolvido utilizando o criador de interface grafica QT Designer para criar o visual do sistema e python junto com Pyside6 para programar todas as funções do sistema
+, além disso foi utilizado o Pandas para criar as tabelas e SQLite para criar um banco de dados local.
 
 Link do Download direto - https://drive.usercontent.google.com/download?id=1rw-VY7GMlEqXYMq7AHsAfpSrRq9Sw8n2
 
@@ -18,7 +20,6 @@ Link do Download direto - https://drive.usercontent.google.com/download?id=1rw-V
   <li>PySide6</li>
   <li>Pandas</li>
   <li>SQLite - Banco de dados</li>
-  <li>PYinstaller</li>
 </ul>
 
 ## Preview
