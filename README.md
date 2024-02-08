@@ -40,7 +40,7 @@ USERNAME: usuario | SENHA: usuario
 
   #### Pagina inicial do aplicativo
   
-<img src="https://github.com/Zekkee1/Sistema-de-Gerenciamento-de-Estoque---Python/assets/99279134/e8ffa22d-8026-4cd2-99e3-34c96324c2f2" >
+<img src="https://github.com/Zekkee1/Sistema-de-Gerenciamento-de-Estoque---Python/assets/99279134/791b53d5-e411-4e42-a738-e5b552dc77e7" >
 
 
   ## Página - Importar
