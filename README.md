@@ -40,7 +40,7 @@ USERNAME: usuario | SENHA: usuario
 
   #### Pagina inicial do aplicativo
   
-<img src="https://private-user-images.githubusercontent.com/99279134/302808185-791b53d5-e411-4e42-a738-e5b552dc77e7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDczNTU5MzksIm5iZiI6MTcwNzM1NTYzOSwicGF0aCI6Ii85OTI3OTEzNC8zMDI4MDgxODUtNzkxYjUzZDUtZTQxMS00ZTQyLWE3MzgtZTViNTUyZGM3N2U3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA4VDAxMjcxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5ZTA5ZDlkZjQzMzQ2YjAwMTMxMDcxZGUzMzhlNGI1OGZhZDBiYjUxYmI4ZWUyNDE3MjA5NGVkODYzM2JlMWImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.jAfc1arvWwsKz3KWQCn1hoRsCk3U2VuOUUe21UJTPlI" >
+<img src="![excel](https://github.com/Zekkee1/Sistema-de-Gerenciamento-de-Estoque---Python/assets/99279134/e8ffa22d-8026-4cd2-99e3-34c96324c2f2)" >
 
 
   ## Página - Importar
